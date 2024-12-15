@@ -205,7 +205,7 @@
 // -------------------------------------------------------------------------------------------
                 numpad_layer {
                         bindings = <
-s  ___x___        ___x___        ___x___        ___x___        ___x___        ___x___                   &kp KP_NUM     &kp KP_SLASH   &kp KP_ASTERISK &kp KP_ASTERISK &kp KP_MINUS   &kp BSPC
+   ___x___        ___x___        ___x___        ___x___        ___x___        ___x___                   &kp KP_NUM     &kp KP_SLASH   &kp KP_ASTERISK &kp KP_ASTERISK &kp KP_MINUS   &kp BSPC
    ___x___        ___x___        ___x___        ___x___        ___x___        ___x___                   &kp LS(P)      &kp KP_N7      &kp KP_N8       &kp KP_N9       &kp KP_MINUS   &kp KP_MULTIPLY
    _TRANS_        ___x___        ___x___        NXT_LYR        ___x___        ___x___                   &kp LS(P)      &kp KP_N4      &kp KP_N5       &kp KP_N6       &kp KP_PLUS    &kp KP_DIVIDE
    ___x___        ___x___        ___x___        ___x___        ___x___        ___x___                   &kp KP_N0      &kp KP_N1      &kp KP_N2       &kp KP_N3       &kp KP_ENTER   &kp K_APP
@@ -253,7 +253,7 @@ s  ___x___        ___x___        ___x___        ___x___        ___x___        __
                 macro_layer {
                         bindings = <
    &m_passwd_1    ___x___        ___x___        ___x___        &sys_reset     NXT_LYR                   NXT_LYR        ___x___        ___x___        ___x___        ___x___        &m_passwd_3
-   &m_passwd_1    ___x___        ___x___        ___x___        ___x___        NXT_LYR                   NXT_LYR        &kp C_VOL_UP   &kp C_VOL_DN   &kp C_MUTE     ___x___        &m_passwd_3
+   &m_passwd_1    ___x___        ___x___        ___x___        ___x___        NXT_LYR                   NXT_LYR        &kp C_MUTE     &kp C_VOL_DN   &kp C_VOL_UP   ___x___        &m_passwd_3
    &m_passwd_2    &out OUT_BLE   &out OUT_USB   &out OUT_TOG   ___x___        &sys_reset                &sys_reset     &kp C_PREV     &kp C_PP       &kp C_NEXT     ___x___        &m_passwd_4
    &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4              &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
                   ___x___        ___x___        ___x___        ___x___                                                 ___x___        ___x___        ___x___        ___x___
@@ -278,8 +278,6 @@ s  ___x___        ___x___        ___x___        ___x___        ___x___        __
                                                 _TRANS_        _TRANS_        _TRANS_                   _TRANS_        _TRANS_        _TRANS_
                         >;
                 };
-
-        };
 
 
 // -------------------------------------------------------------------------------------------
